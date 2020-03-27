@@ -1,6 +1,6 @@
 {
   "name": "sernite",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "description": "Server-side scripting engine",
   "main": "index.js",
   "scripts": {
