@@ -2,6 +2,8 @@
 
 <br>
 
+[![npm version](https://badge.fury.io/js/sernite.svg)](https://badge.fury.io/js/sernite) [![Coverage Status](https://coveralls.io/repos/github/ahmetcanozcan/sernite/badge.svg?branch=master)](https://coveralls.io/github/ahmetcanozcan/sernite?branch=master)
+
 Sernite is a higher level web framework for more modular and serverless-like server-side scripting.
 
 ## Table of Contents
