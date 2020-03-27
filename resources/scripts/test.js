@@ -18,7 +18,7 @@ async function handler(send, nitmsg) {
 
   // you can get params that you defined in sernite.json using just `params`
   // i.e. params[1] will return your first argument.
-  let hasAmazingScriptParameters = params.length != 0;
+  let hasAmazingScriptParameters = params.length !== 0;
 
 
   // Get info from db nit
