@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 /**
- * @author Ahmetcan ÖZCAN <ahmetcanozcan7@gmail.com>
+ *  @author Ahmetcan ÖZCAN <ahmetcanozcan7@gmail.com>
  * 
- * Sernite Script, is the script executer module for sernite projects.
- * 
+ * @description Sernite Script, is the script executer module for sernite projects.
  * 
  */
 
@@ -23,7 +22,8 @@ const getLine = (function () {
 })();
 
 /**
- * 
+ * Send message to the given nit and wait for its response and return it.
+ * using in async functions is recommended.
  * @param {string} name of the target nit
  * @param {string} message of the script
  * @returns {string} response of the nit
@@ -36,8 +36,8 @@ async function nitmsg(name, message) {
 }
 
 /**
- * 
- * @param {string} message 
+ * Send message to web client
+ * @param {string} message the message will be sent to client.
  */
 function send(message) {
   console.log(message);
@@ -52,8 +52,8 @@ function send(message) {
 // Setting up the done function to global scope
 (function () {
   /**
-   * 
-   * @param {string|number} msg 
+   * Exit the process
+   * @param {string|number} msg error message or code
    */
   function done(msg = false) {
     if (!msg) {

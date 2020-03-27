@@ -1,13 +1,22 @@
 #!/usr/bin/env node
 const pckg = require('../package.json');
 const { program } = require('commander')
+const { run, types } = require('../lib');
 
 program.version(pckg.version);
 
 program
-  .option('-i,--init', 'initialize sernite app in this directory.')
-  .option('-p, --port', 'set port that will be listening.');
+  .command('init')
+  .action(function () {
+    run(types.INIT)
+  });
 
-program.parse(process.argv)
+program
+  .command('start')
+  .option('-p,--port <number>')
+  .action(function (opts) {
+    run(types.START, opts);
+  });
 
-require('../lib').run(program.opts());
+program.parse(process.argv);
+
