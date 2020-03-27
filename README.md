@@ -1,7 +1,7 @@
 ![SERNITE](https://ahmetcanozcan.github.io/sernite/img/logo.png)
 <br>
 
-[![npm version](https://badge.fury.io/js/sernite.svg)](https://badge.fury.io/js/sernite) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6c7b66433de24285a07f29386737832d)](https://www.codacy.com/manual/ahmetcanozcan/sernite?utm_source=github.com&utm_medium=referral&utm_content=ahmetcanozcan/sernite&utm_campaign=Badge_Grade) ![NPM](https://img.shields.io/npm/l/sernite)
+[![npm version](https://badge.fury.io/js/sernite.svg)](https://badge.fury.io/js/sernite) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b09cbfaf0b7c45b1afea0b9ddccab076)](https://www.codacy.com/manual/ahmetcanozcan/sernite?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ahmetcanozcan/sernite&amp;utm_campaign=Badge_Grade) ![NPM](https://img.shields.io/npm/l/sernite)
 
 Sernite is a higher level web framework for more modular and serverless-like server-side scripting.
 
@@ -14,7 +14,6 @@ Sernite is a higher level web framework for more modular and serverless-like ser
     -   [Nits](#Nits)
 -   [Upcoming Features](#upcoming-features)
 -   [Contributing](#contributing)
--   [Licence](#license)  
 
 ## Installation
 
