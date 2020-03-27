@@ -1,0 +1,25 @@
+{
+  "name": "",
+  "author": "",
+  "repoUrl": "",
+  "scripts": [
+    {
+      "url": "/echo/:message",
+      "path": "scripts/test.js",
+      "params": [
+        "url:message",
+        "emptyParam"
+      ],
+      "headers": {
+        "X-Auth-Token": "example_token_12"
+      }
+    }
+  ],
+  "nits": [
+    {
+      "name": "db",
+      "path": "nits/db.js"
+    }
+  ],
+  "publicDir": "views"
+}
