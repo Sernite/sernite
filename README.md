@@ -1,9 +1,7 @@
-<div
-style="text-align:center;margin:1rem;padding:0;font-size:420%;font-weight:bold;letter-spacing:15px;background-color:rgb(12,15,35);color:#efeccc;background-image:linear-gradient(to right,#12443e, #452345);bü"
+![SERNITE](https://ahmetcanozcan.github.io/sernite/img/logo.png)
 
->
-SERNITE
-</div>
+<br>
+
 Sernite is a higher level web framework for more modular and serverless-like server-side scripting.
 
 ## Table of Contents
