@@ -10,14 +10,14 @@
 /**
  * 
  * @param {string} query : message came from a service
- * @returns {any} response of nit 
+ * @returns {any} response response of nit 
  */
 async function handler(query) {
 
   /**
    *  Unlike scripts, you can use console.* functions 
    */
-  console.log('DB service got:', query);
+  console.log('DB nit got:', query);
 
   return 'Greeting, from db nit';
 }

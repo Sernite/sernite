@@ -21,5 +21,6 @@
       "path": "nits/db.js"
     }
   ],
+  "middleware": "middlewares/index.js",
   "publicDir": "views"
 }
