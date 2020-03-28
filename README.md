@@ -38,9 +38,9 @@ For more detailed tutorial, visit  [webpage](http://ahmetcanozcan.github.io/sern
 
 -   ### Scripts
 
-      Sernite scripts are handlers invoked in sub-processes when their assigned request arrived at the Sernite server.
+      Sernite scripts are handlers that invoked in sub-processes when their assigned request arrived at the Sernite server.
       \\
-      scripts are assigned from configuration file
+      scripts can be assigned from `sernite.json` file
       <br>
 
     ```json
@@ -65,19 +65,19 @@ For more detailed tutorial, visit  [webpage](http://ahmetcanozcan.github.io/sern
       In sernite scripts, there are two special global variables
       <br>
 
-    -   <span style="font-size:110%">`params`  </span>: an array contains all parsed parameters. An example for `GET /echo/hello` request, params array looks like that `['hello','amazingParam']` 
+    -   <span style="font-size:110%">`params`  </span>: an array contains all parsed parameters. In example; for `GET /echo/hello` request, params array looks like that `['hello','amazingParam']` 
         <br>
 
-    -   <span style="font-size:110%">`done`  </span>:  a function finalize process with or without an error 
+    -   <span style="font-size:110%">`done`  </span>:  a function that finalize the process with or without an error 
         <br>
 
-        Sernite script have to import a function with two paramaters:
+        Sernite scripts must import a function with two paramaters:
         <br>
 
     -   <span style="font-size:110%">`send`  </span>: sends your message to web client through `stdout`
         <br>
 
-    -   <span style="font-size:110%">`nitmsg`  </span> : sends your query to the nit and wait for its response and returns
+    -   <span style="font-size:110%">`nitmsg`  </span> : sends your query to the nit and waits for its response and returns
         <br>
         ```javascript
         // scripts/echo.js
@@ -107,7 +107,7 @@ For more detailed tutorial, visit  [webpage](http://ahmetcanozcan.github.io/sern
     -   Haskel
     -   Lua
     -   Java
--   
+-   Native javascript handlers and binding it from folder structer.
 
 ## Contributing
 
