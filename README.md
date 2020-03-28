@@ -1,7 +1,7 @@
 ![SERNITE](https://ahmetcanozcan.github.io/sernite/img/logo.png)
 <br>
 
-[![npm version](https://badge.fury.io/js/sernite.svg)](https://badge.fury.io/js/sernite) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b09cbfaf0b7c45b1afea0b9ddccab076)](https://www.codacy.com/manual/ahmetcanozcan/sernite?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ahmetcanozcan/sernite&amp;utm_campaign=Badge_Grade) ![NPM](https://img.shields.io/npm/l/sernite)
+[![npm version](https://badge.fury.io/js/sernite.svg)](https://badge.fury.io/js/sernite) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b09cbfaf0b7c45b1afea0b9ddccab076)](https://www.codacy.com/manual/ahmetcanozcan/sernite?utm_source=github.com&utm_medium=referral&utm_content=ahmetcanozcan/sernite&utm_campaign=Badge_Grade) ![NPM](https://img.shields.io/npm/l/sernite) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fahmetcanozcan.github.io%2Fsernite)
 
 Sernite is a higher level web framework for more modular and serverless-like server-side scripting.
 
@@ -31,6 +31,8 @@ $ mkdir hello_world && cd hello_world # create a folder and open it
 $ sernite init  # initialize sernite
 $ sernite run  
 ```
+
+For more detailed tutorial, visit  [webpage](http://ahmetcanozcan.github.io/sernite)
 
 ## Concepts
 
@@ -100,11 +102,12 @@ $ sernite run
 
 ## Upcoming Features
 
--   Multi language support for sernite scripts. considering:
+-   Multiple language support for sernite scripts. considering:
     -   Python
     -   Haskel
     -   Lua
     -   Java
+-   
 
 ## Contributing
 
