@@ -32,6 +32,9 @@ program
       case 'script':
         add.script(_.pick(options, ['']));
         break;
+      case 'nit':
+        add.nit(_.pick(options, ['']))
+        break;
       default:
         log.error('Cannot add type of ', type);
         break;
