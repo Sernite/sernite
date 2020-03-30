@@ -19,8 +19,9 @@ program
 program
   .command('start')
   .option('-p,--port <port>', 'Port number that sernite app hosted on.', 3000)
+  .option('-d,--debug', 'Logs more information')
   .action(function (options) {
-    const cfg = _.pick(options, ['port'])
+    const cfg = _.pick(options, ['port', 'debug'])
     start(cfg);
   });
 

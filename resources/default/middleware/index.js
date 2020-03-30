@@ -1,7 +1,6 @@
 
 const morgan = require('morgan');
 
-// middleware script can import an array 
 module.exports = [
   morgan('tiny')
 ]

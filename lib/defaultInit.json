@@ -22,5 +22,5 @@
     }
   ],
   "middleware": "middleware/",
-  "publicDir": "views"
+  "publicDir": "public"
 }
