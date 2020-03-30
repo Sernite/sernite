@@ -1,7 +1,7 @@
-![SERNITE](https://ahmetcanozcan.github.io/sernite/img/logo.png)
+![SERNITE](https://sernite.github.io/img/logo.png)
 <br>
 
-[![npm version](https://badge.fury.io/js/sernite.svg)](https://badge.fury.io/js/sernite) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b09cbfaf0b7c45b1afea0b9ddccab076)](https://www.codacy.com/manual/ahmetcanozcan/sernite?utm_source=github.com&utm_medium=referral&utm_content=ahmetcanozcan/sernite&utm_campaign=Badge_Grade) ![NPM](https://img.shields.io/npm/l/sernite) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fahmetcanozcan.github.io%2Fsernite)
+[![npm version](https://badge.fury.io/js/sernite.svg)](https://badge.fury.io/js/sernite) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b09cbfaf0b7c45b1afea0b9ddccab076)](https://www.codacy.com/manual/ahmetcanozcan/sernite?utm_source=github.com&utm_medium=referral&utm_content=ahmetcanozcan/sernite&utm_campaign=Badge_Grade) ![NPM](https://img.shields.io/npm/l/sernite) ![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=http%3A%2F%2Fsernite.github.io)
 
 Sernite is a higher level web framework for more modular and serverless-like server-side scripting.
 
@@ -32,7 +32,7 @@ $ sernite init  # initialize sernite
 $ sernite run  
 ```
 
-For more detailed tutorial, visit  [webpage](http://ahmetcanozcan.github.io/sernite)
+For more detailed tutorial, visit  [webpage](http://sernite.github.io/)
 
 ## Concepts
 
@@ -103,11 +103,11 @@ For more detailed tutorial, visit  [webpage](http://ahmetcanozcan.github.io/sern
 ## Upcoming Features
 
 -   Multiple language support for sernite scripts. considering:
+    -   Go
     -   Python
     -   Haskel
     -   Lua
     -   Java
--   Native javascript handlers and binding it from folder structer.
 
 ## Contributing
 
