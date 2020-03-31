@@ -27,7 +27,6 @@ program
 
 program
   .command('add <type>')
-  .option('-y,--yes', 'pass all questions.')
   .action(function (type, options) {
     switch (type) {
       case 'script':
@@ -35,6 +34,9 @@ program
         break;
       case 'nit':
         add.nit(_.pick(options, ['']))
+        break;
+      case 'class':
+        add.serniteClass(_.pick(options, ['']));
         break;
       default:
         log.error('Cannot add type of ', type);

@@ -21,6 +21,8 @@
       "path": "nits/db.js"
     }
   ],
+  "bindings": [],
+  "classes": [],
   "middleware": "middleware/",
   "publicDir": "public"
 }
