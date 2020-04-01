@@ -10,7 +10,7 @@ program.version(pckg.version);
 
 program
   .command('init')
-  .option('-t,--template <template>', 'Template name used when initializing.', 'default')
+  .option('-t,--template <template>', 'Template name used when initializing.')
   .action(function (options) {
     const cfg = _.pick(options, ['template']);
     initialize(cfg);

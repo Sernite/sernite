@@ -1,17 +1,13 @@
 
-/**
- * Variables from global scope.
- * @var {(msg?:string)=>any} done
- * @var {string[]} params
- */
+const { sernite } = require('jsernite');
+
+sernite.setHandler(
+
+  async (send, nitmsg) => {
+
+    // Your code goes here.
 
 
-/**
- * @param {(message:string)=>void} send
- * @param {(nitName:string,message:string)=>string} nitmsh
- */
-function handler(send, nitmsh) {
+  }
 
-}
-
-module.exports = handler;
+).run();

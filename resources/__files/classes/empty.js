@@ -1,4 +1,5 @@
-class Handler {
+const { SerniteClass } = require('jsernite')
+class Handler extends SerniteClass {
 
 
   /**

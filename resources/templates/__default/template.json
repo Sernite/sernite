@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "morgan",
+    "jsernite"
+  ]
+}
